@@ -1,0 +1,97 @@
+
+body{
+  background-image: linear-gradient(to right, #DECBA4, #3E5151);
+
+}
+
+header h1{
+   font-size: 60px;
+   font-family: sans-serif;
+   text-decoration: underline;
+
+}
+
+li{
+  background-color:#19212b ;
+  width: 55%;
+  height: 18px;
+  border: solid #bd9648;
+  padding: 15px;
+  font-size: 16px;
+  font-family: sans-serif;
+  list-style: none;
+  
+}
+li:hover{
+  color: #DECBA4;
+  font-size: 24px;
+  background-color: #3e454d;
+  cursor: pointer;
+  
+}
+.container{
+  display: grid;
+  grid-template-columns: 45% ;
+  grid-template-rows: 100vh;
+
+}
+
+#films {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+ 
+}
+
+#movie-details {
+  width: 70%;
+  height: 80%;
+
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  padding: 20px;
+  background-color: #19212b;
+  
+  
+}
+
+#poster {
+  
+  width: 100%;
+  height: 70%;
+  margin-bottom: 20px;
+}
+
+#title {
+  font-size: 32px;
+  color: #d6bb83;
+  margin: 0 0 10px;
+}
+
+#runtime, #showtime {
+  color: #d6bb83;
+  font-size: 20px;
+  margin: 10px ;
+}
+
+#available-tickets {
+  font-size: 24px;
+  font-weight: bold;
+  color: #bd9648;
+  margin: 10px ;
+}
+
+#buy-ticket {
+  background-color: #d6bb83;
+  color: #2c0808;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+#buy-ticket:hover {
+  color: #000000;
+  background-color: #e4a11b;
+}
+
